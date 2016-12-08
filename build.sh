@@ -39,8 +39,9 @@ echo "Include /var/www/conf.d/*.conf" >> /etc/httpd/conf/httpd.conf
 
 wget http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 rpm -ivh epel-release-6-8.noarch.rpm
-yum -y install libapreq2
+#yum -y install libapreq2
 yum -y install mod_perl
 yum -y install mod_perl-devel
 cpanm -n Apache2::Request
 yum -y install perl-DBD-mysql perl-DBI
+yum -y install libapreq2
