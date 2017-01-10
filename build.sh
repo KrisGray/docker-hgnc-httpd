@@ -9,6 +9,7 @@ yum -y install zlib-devel
 yum -y install openssl-devel
 #yum -y install openssh-server openssh-clients
 yum -y install sudo
+yum -y install git
 
 
 service iptables stop;
