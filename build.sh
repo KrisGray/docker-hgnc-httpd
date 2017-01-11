@@ -31,6 +31,8 @@ gem install jekyll bundler
 curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
 yum -y install nodejs
 npm install grunt -g
+npm install grunt-cli -g
+npm install gulp-cli -g
 npm install bower -g
 
 yum -y install perl-CPAN
