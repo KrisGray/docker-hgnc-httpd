@@ -34,6 +34,7 @@ npm install grunt -g
 npm install grunt-cli -g
 npm install gulp-cli -g
 npm install bower -g
+npm install modernizr -g
 
 yum -y install perl-CPAN
 curl -L http://cpanmin.us | perl - App::cpanminus
