@@ -50,3 +50,5 @@ yum -y install mod_perl-devel
 cpanm -n Apache2::Request
 yum -y install perl-DBD-mysql perl-DBI
 yum -y install libapreq2
+yum install -y firefox
+yum install -y  xorg-x11-server-Xvfb
