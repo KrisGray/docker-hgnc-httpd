@@ -30,12 +30,8 @@ gem install jekyll bundler
 
 curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
 yum -y install nodejs
-npm install grunt -g
-npm install grunt-cli -g
 npm install gulp-cli -g
 npm install karma-cli -g
-npm install bower -g
-npm install modernizr -g
 
 yum -y install perl-CPAN
 curl -L http://cpanmin.us | perl - App::cpanminus
