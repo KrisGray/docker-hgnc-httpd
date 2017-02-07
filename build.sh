@@ -33,6 +33,7 @@ yum -y install nodejs
 npm install grunt -g
 npm install grunt-cli -g
 npm install gulp-cli -g
+npm install karma-cli -g
 npm install bower -g
 npm install modernizr -g
 
