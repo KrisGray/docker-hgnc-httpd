@@ -44,6 +44,7 @@ rpm -ivh epel-release-6-8.noarch.rpm
 yum -y install mod_perl
 yum -y install mod_perl-devel
 cpanm -n Apache2::Request
+cpanm -n Test::Exception
 yum -y install perl-DBD-mysql perl-DBI
 yum -y install libapreq2
 yum install -y firefox
