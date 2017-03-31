@@ -46,6 +46,8 @@ yum -y install mod_perl-devel
 cpanm -n Apache2::Request
 cpanm -n Test::Exception
 cpanm -n Test::MockModule
+cpanm -n Test::Class::Moose
+cpanm -n Test::Class::Moose::Role::AutoUse
 yum -y install perl-DBD-mysql perl-DBI
 yum -y install libapreq2
 yum install -y firefox
