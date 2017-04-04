@@ -50,6 +50,7 @@ cpanm -n Test::Class::Moose
 cpanm -n Test::Class::Moose::Role::AutoUse
 cpanm -n Test::LWP::UserAgent
 cpanm -n Module::Spy
+cpanm -n DBD::Mock
 yum -y install perl-DBD-mysql perl-DBI
 yum -y install libapreq2
 yum install -y firefox
