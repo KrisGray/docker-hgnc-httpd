@@ -53,6 +53,7 @@ cpanm -n Test::MockObject
 cpanm -n Module::Spy
 cpanm -n DBD::Mock
 cpanm -n Throwable::Error
+cpanm -n Test::WWW::Mechanize
 yum -y install perl-DBD-mysql perl-DBI
 yum -y install libapreq2
 yum install -y firefox
