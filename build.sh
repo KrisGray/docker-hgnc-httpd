@@ -55,6 +55,8 @@ cpanm -n DBD::Mock
 cpanm -n Throwable::Error
 cpanm -n Test::WWW::Mechanize
 yum -y install perl-DBD-mysql perl-DBI
+yum -y install perl-DBD-Pg
+yum -y install which
 yum -y install libapreq2
 yum install -y firefox
 yum install -y  xorg-x11-server-Xvfb
