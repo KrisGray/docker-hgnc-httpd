@@ -1,4 +1,4 @@
-FROM centos:6
+FROM centos:7
 MAINTAINER Kristian Gray <kris@ebi.ac.uk>
 
 COPY build.sh /
