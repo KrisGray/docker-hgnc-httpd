@@ -11,15 +11,10 @@ yum -y install git
 yum -y install tar which
 yum -y groupinstall "Development Tools"
 
-# service iptables stop;
-# chkconfig iptables off;
-# rm -rf /etc/rc.d/init.d/iptables
-
 yum -y install libyaml-devel libffi-devel readline-devel
 
 curl -sSL https://rvm.io/mpapis.asc | gpg --import -
 curl -sSL https://rvm.io/pkuczynski.asc | gpg --import -
-
 curl -sSL https://get.rvm.io | bash -s stable
 source /etc/profile.d/rvm.sh
 rvm install 2.3.0
@@ -58,4 +53,5 @@ yum -y install perl-DBD-mysql perl-DBI
 yum -y install perl-DBD-Pg
 yum -y install libapreq2
 yum install -y firefox
-yum install -y  xorg-x11-server-Xvfb
+yum install -y xorg-x11-server-Xvfb
+yum clean all;
